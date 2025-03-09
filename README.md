@@ -73,3 +73,11 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+
+# Build
+
+```docker build -t mahesh-nuxt:latest```
+
+# Run 
+```docker run --rm -it --name mahesh-nuxt-running -p 43000:3000 mahesh-nuxt:4pm```
