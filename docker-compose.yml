@@ -78,12 +78,4 @@ services:
 networks:
   foobar-revproxy:
     driver: bridge
-    name: foobar-revproxy}
-      - CF_API_KEY=${CF_API_KEY}
-    networks:
-      - foobar-revproxy
-
-networks:
-  foobar-revproxy:
-    driver: bridge
     name: foobar-revproxy
