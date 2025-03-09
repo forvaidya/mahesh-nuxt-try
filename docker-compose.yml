@@ -9,7 +9,6 @@ services:
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.nuxt-app.rule=Host(`trial.devops-ranch.in`)"
-      - "traefik.http.routers.nuxt-app.rule=Host(`localhost-nuxt`)"
 
       - "traefik.http.services.nuxt-app.loadbalancer.server.port=3000"
     environment:
