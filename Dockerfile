@@ -4,7 +4,7 @@ FROM node:22
 WORKDIR /usr/src/app
 
 # Copy package.json and yarn.lock
-COPY package.json yarn.lock ./
+COPY package.json  ./
 
 # Install dependencies
 RUN yarn install
